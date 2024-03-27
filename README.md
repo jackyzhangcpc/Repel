@@ -75,3 +75,35 @@ Commands in Repel will vary depending on the type of account you log in to. Admi
 - `exit` - exit platform
 
 ## Changelog
+
+### [0.0.1] - 03/07/2024
+#### Added
+- Administrative account interface
+- Student class with name, grade level, grades, and student ID objects
+- IOStream class handling inputs and outputs
+- Simple navigation and functionality
+#### Changed
+#### Fixed
+
+---
+
+### [0.0.2] - 03/14/2024
+#### Added
+- GSON Handling
+	- Saving student info into JSON database
+#### Changed
+#### Fixed
+- Removed repeating student IDs
+
+---
+### [0.0.3] - 03/27/2024
+#### Added
+- Authentication and Encryption
+	- Log in - added password object to Student class
+	- Student IDs encrypted in JSON file
+- Student account interface
+	- Viewing info and grades
+#### Changed
+- JSON Handler class implementing encryption and decryption
+- Driver code includes authentication before menu UI
+#### Fixed
